@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netodonalds</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header>
+        <img width="100" src="./imgs/logo.png" alt="" />
+        <h1>Bem vindo!</h1>
+      </header>
+      <div class="menu-container">
+        <div class="food-dropdown-container">
+          <button id="foodDropdownButton" type="button" class="dropdown-button">Selecione seu Lanche <span class="arrow">▼</span></button>
+          <div id="foodDropdownOptions" class="food-dropdown-options" style="display: none;">
+          </div>
+        </div>
+        <div class="buyer-container">
+          CPF do comprador: <input type="number" id="cpf" />
+        </div>
+      </div>
+
+      <div class="body-container">
+        <div class="fillings-container">
+          <h2>Escolha o seu recheio</h2>
+          <div class="fillings">
+            <div><input type="checkbox" /> Queijo (R$ 1.50)</div>
+            <div><input type="checkbox" /> Presunto (R$ 0.50)</div>
+            <div><input type="checkbox" /> Nutella (R$ 5.50)</div>
+          </div>
+        </div>
+
+        <div class="price-container">
+          <h2>Preço Total: R$ <span id="price"></span></h2>
+        </div>
+      </div>
+
+      <div class="actions-container">
+        <button id="payButton">Pagar</button>
+        <button id="historyButton">Histórico de Compras</button>
+      </div>
+
+      <div class="history-display-container">
+        <h3>Histórico de Compras:</h3>
+        <div id="purchaseHistory">
+        </div>
+      </div>
+    </div>
+
+    <div id="customAlertModalOverlay" class="custom-modal-overlay">
+      <div id="customAlertModalContent" class="custom-modal-content">
+        <h4 id="customAlertTitle">Atenção</h4>
+        <p id="customAlertMessage"></p>
+        <button id="customAlertCloseButton">OK</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
