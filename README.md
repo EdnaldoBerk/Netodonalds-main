@@ -75,7 +75,6 @@ O NetoDonalds é um sistema de ponto de venda simplificado, inspirado em redes d
 
 ## Dev Log
 
-**Aula 05 - 27/05 (terça)**
 
 - [x] Criação da rota **/payment** e da tabela payment.
 - [x] Implementação do endpoint `/history/:cpf` no backend.
@@ -83,25 +82,21 @@ O NetoDonalds é um sistema de ponto de venda simplificado, inspirado em redes d
 - [x] Melhorias de estilo e UX, incluindo modais de alerta personalizados.
 - [x] Implementação de menu dropdown para seleção de comidas.
 
-**Aula 04 - 26/05 (segunda-noite)**
 
 - [x] Apromiramento do front-end.
   - [x] Integração com o Back-end
   - [x] Leitura dos dados da comida e dos recheios
   - [x] Instalação do cors no server.js
 
-**Aula 03 - 26/05 (segunda-manhã)**
 
 - [x] Criação do início do front-end.
   - [x] Criação dos arquivos index.html, style.css e script.js
   - [x] Inclusão da logo do projeto na pasta Front-end/imgs
 
-**Aula 02 - 20/05 (terça)**
 
 - [x] Criação da tabela **fillings** e criação da rota /food/:id.
   - [x] A rota **/food/:id** retorna uma comida identificada pelo id, como também os recheios associados a ela
 
-**Aula 01 - 19/05 (segunda)**
 
 - [x] Criação da base de dados e início do back-end.
   - [x] Criação da estrutura de arquivos do servidor (server.js, controller.js, repository.js e database.js)
